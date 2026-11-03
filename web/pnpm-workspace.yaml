@@ -1,0 +1,7 @@
+# pnpm >= 10 blocks dependency build scripts by default; list which ones may run.
+allowBuilds:
+  '@swc/core': true
+  esbuild: true
+  vue-demi: true
+  # postinstall only prints a funding message
+  core-js: false
